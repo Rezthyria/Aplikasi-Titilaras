@@ -1,0 +1,17 @@
+{
+  "id": "salendro",
+  "nama": "Salendro",
+  "laras": "salendro",
+  "nadaDasar": "Singgul",
+  "frekuensiNadaDasarHz": 549.83,
+  "frekuensiSampleAcuanHz": 440.0,
+  "urutanMenurunAngka": [1, 2, 3, 4, 5],
+  "catatan": "Frekuensi oktaf tengah mengikuti rekaman Saron asli (la/Singgul = 549.83 Hz). Demung satu oktaf di bawah, Peking satu oktaf di atas. Angka daminatila menurun: 1=Tugu, 2=Loloran, 3=Panelu, 4=Galimer, 5=Singgul.",
+  "tonaTengah": [
+    { "angka": 1, "nama": "Tugu (T)", "cents": 947, "hzTabel": 948.98 },
+    { "angka": 2, "nama": "Loloran (L)", "cents": 703, "hzTabel": 824.62 },
+    { "angka": 3, "nama": "Panelu (P)", "cents": 467, "hzTabel": 720.03 },
+    { "angka": 4, "nama": "Galimer (G)", "cents": 232, "hzTabel": 628.82 },
+    { "angka": 5, "nama": "Singgul (S)", "cents": 0, "hzTabel": 549.83 }
+  ]
+}

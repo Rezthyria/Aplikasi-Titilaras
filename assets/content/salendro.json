@@ -1,0 +1,3937 @@
+{
+  "id": "unit_salendro",
+  "judul": "Salendro",
+  "laras": "salendro",
+  "bab": [
+    {
+      "id": "bab_salendro_dengar",
+      "judul": "Dengar Salendro",
+      "tujuan": "Membedakan angka nada dari bunyi tunggal dan pola pendek.",
+      "prasyaratBabId": [],
+      "kriteria": {
+        "minimalSesi": 1,
+        "minimalSkor": 60
+      },
+      "latihan": [
+        {
+          "id": "latihan_salendro_dengar_nada",
+          "judul": "Dengar Nada Salendro",
+          "jenis": "dengar",
+          "konfigLoop": {
+            "acuanAktif": true,
+            "jenisAcuan": "tangga_nada",
+            "arahTangga": "menurun",
+            "modePutarAcuan": "otomatis",
+            "bolehLewatiAcuan": true,
+            "batasPemutaranUlang": 4,
+            "modeInput": "pilih_opsi",
+            "bolehPercobaanUlang": true,
+            "jedaAcuanStimulusMs": 450,
+            "skoring": {
+              "skorPenuh": 100,
+              "skorUlang": 60
+            }
+          },
+          "soal": [
+            {
+              "id": "salendro_dengar_nada_0_1",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 1,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "1",
+              "pilihan": [
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                },
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                },
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_0_2",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 2,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "2",
+              "pilihan": [
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                },
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                },
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_0_3",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 3,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "3",
+              "pilihan": [
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                },
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                },
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_0_4",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 4,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "4",
+              "pilihan": [
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                },
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                },
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_0_5",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 5,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "5",
+              "pilihan": [
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                },
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                },
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_1_1",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 1,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "1",
+              "pilihan": [
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                },
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                },
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_1_2",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 2,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "2",
+              "pilihan": [
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                },
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                },
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_1_3",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 3,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "3",
+              "pilihan": [
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                },
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                },
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_1_4",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 4,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "4",
+              "pilihan": [
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                },
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                },
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_1_5",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 5,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "5",
+              "pilihan": [
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                },
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                },
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_2_1",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 1,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "1",
+              "pilihan": [
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                },
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                },
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_2_2",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 2,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "2",
+              "pilihan": [
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                },
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                },
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_2_3",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 3,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "3",
+              "pilihan": [
+                {
+                  "label": "3 na",
+                  "nilai": "3"
+                },
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                },
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_2_4",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 4,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "4",
+              "pilihan": [
+                {
+                  "label": "4 ti",
+                  "nilai": "4"
+                },
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                },
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_dengar_nada_2_5",
+              "prompt": "Dengarkan satu nada, lalu pilih angka nadanya.",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 5,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "5",
+              "pilihan": [
+                {
+                  "label": "5 la",
+                  "nilai": "5"
+                },
+                {
+                  "label": "1 da",
+                  "nilai": "1"
+                },
+                {
+                  "label": "2 mi",
+                  "nilai": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "latihan_salendro_pola_dua",
+          "judul": "Dengar Pola Dua Nada Salendro",
+          "jenis": "dengar",
+          "konfigLoop": {
+            "acuanAktif": true,
+            "jenisAcuan": "tangga_nada",
+            "arahTangga": "menurun",
+            "modePutarAcuan": "otomatis",
+            "bolehLewatiAcuan": true,
+            "batasPemutaranUlang": 4,
+            "modeInput": "susun_urutan",
+            "bolehPercobaanUlang": true,
+            "jedaAcuanStimulusMs": 450,
+            "skoring": {
+              "skorPenuh": 100,
+              "skorUlang": 60
+            }
+          },
+          "soal": [
+            {
+              "id": "salendro_pola_dua_1",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-2",
+              "pilihan": [
+                {
+                  "label": "1-2",
+                  "nilai": "1-2"
+                },
+                {
+                  "label": "2-1",
+                  "nilai": "2-1"
+                },
+                {
+                  "label": "2-3",
+                  "nilai": "2-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_2",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-3",
+              "pilihan": [
+                {
+                  "label": "2-3",
+                  "nilai": "2-3"
+                },
+                {
+                  "label": "3-2",
+                  "nilai": "3-2"
+                },
+                {
+                  "label": "3-4",
+                  "nilai": "3-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_3",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-4",
+              "pilihan": [
+                {
+                  "label": "3-4",
+                  "nilai": "3-4"
+                },
+                {
+                  "label": "4-3",
+                  "nilai": "4-3"
+                },
+                {
+                  "label": "4-5",
+                  "nilai": "4-5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_4",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-5",
+              "pilihan": [
+                {
+                  "label": "4-5",
+                  "nilai": "4-5"
+                },
+                {
+                  "label": "5-4",
+                  "nilai": "5-4"
+                },
+                {
+                  "label": "5-1",
+                  "nilai": "5-1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_5",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-1",
+              "pilihan": [
+                {
+                  "label": "5-1",
+                  "nilai": "5-1"
+                },
+                {
+                  "label": "1-5",
+                  "nilai": "1-5"
+                },
+                {
+                  "label": "1-2",
+                  "nilai": "1-2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_6",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-3",
+              "pilihan": [
+                {
+                  "label": "1-3",
+                  "nilai": "1-3"
+                },
+                {
+                  "label": "3-1",
+                  "nilai": "3-1"
+                },
+                {
+                  "label": "2-4",
+                  "nilai": "2-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_7",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-4",
+              "pilihan": [
+                {
+                  "label": "2-4",
+                  "nilai": "2-4"
+                },
+                {
+                  "label": "4-2",
+                  "nilai": "4-2"
+                },
+                {
+                  "label": "3-5",
+                  "nilai": "3-5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_8",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-5",
+              "pilihan": [
+                {
+                  "label": "3-5",
+                  "nilai": "3-5"
+                },
+                {
+                  "label": "5-3",
+                  "nilai": "5-3"
+                },
+                {
+                  "label": "4-1",
+                  "nilai": "4-1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_9",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-1",
+              "pilihan": [
+                {
+                  "label": "4-1",
+                  "nilai": "4-1"
+                },
+                {
+                  "label": "1-4",
+                  "nilai": "1-4"
+                },
+                {
+                  "label": "5-2",
+                  "nilai": "5-2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_10",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-2",
+              "pilihan": [
+                {
+                  "label": "5-2",
+                  "nilai": "5-2"
+                },
+                {
+                  "label": "2-5",
+                  "nilai": "2-5"
+                },
+                {
+                  "label": "1-3",
+                  "nilai": "1-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_11",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-1",
+              "pilihan": [
+                {
+                  "label": "2-1",
+                  "nilai": "2-1"
+                },
+                {
+                  "label": "1-2",
+                  "nilai": "1-2"
+                },
+                {
+                  "label": "3-2",
+                  "nilai": "3-2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_12",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-2",
+              "pilihan": [
+                {
+                  "label": "3-2",
+                  "nilai": "3-2"
+                },
+                {
+                  "label": "2-3",
+                  "nilai": "2-3"
+                },
+                {
+                  "label": "4-3",
+                  "nilai": "4-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_13",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-3",
+              "pilihan": [
+                {
+                  "label": "4-3",
+                  "nilai": "4-3"
+                },
+                {
+                  "label": "3-4",
+                  "nilai": "3-4"
+                },
+                {
+                  "label": "5-4",
+                  "nilai": "5-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_14",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-4",
+              "pilihan": [
+                {
+                  "label": "5-4",
+                  "nilai": "5-4"
+                },
+                {
+                  "label": "4-5",
+                  "nilai": "4-5"
+                },
+                {
+                  "label": "1-5",
+                  "nilai": "1-5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_15",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-5",
+              "pilihan": [
+                {
+                  "label": "1-5",
+                  "nilai": "1-5"
+                },
+                {
+                  "label": "5-1",
+                  "nilai": "5-1"
+                },
+                {
+                  "label": "2-1",
+                  "nilai": "2-1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_16",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-5",
+              "pilihan": [
+                {
+                  "label": "2-5",
+                  "nilai": "2-5"
+                },
+                {
+                  "label": "5-2",
+                  "nilai": "5-2"
+                },
+                {
+                  "label": "3-1",
+                  "nilai": "3-1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_17",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-3",
+              "pilihan": [
+                {
+                  "label": "5-3",
+                  "nilai": "5-3"
+                },
+                {
+                  "label": "3-5",
+                  "nilai": "3-5"
+                },
+                {
+                  "label": "1-4",
+                  "nilai": "1-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_dua_18",
+              "prompt": "Dengarkan dua nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-2",
+              "pilihan": [
+                {
+                  "label": "4-2",
+                  "nilai": "4-2"
+                },
+                {
+                  "label": "2-4",
+                  "nilai": "2-4"
+                },
+                {
+                  "label": "5-3",
+                  "nilai": "5-3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "latihan_salendro_pola_melodi",
+          "judul": "Dengar Pola Melodi Salendro",
+          "jenis": "dengar",
+          "konfigLoop": {
+            "acuanAktif": true,
+            "jenisAcuan": "tangga_nada",
+            "arahTangga": "menurun",
+            "modePutarAcuan": "otomatis",
+            "bolehLewatiAcuan": true,
+            "batasPemutaranUlang": 4,
+            "modeInput": "susun_urutan",
+            "bolehPercobaanUlang": true,
+            "jedaAcuanStimulusMs": 450,
+            "skoring": {
+              "skorPenuh": 100,
+              "skorUlang": 60
+            }
+          },
+          "soal": [
+            {
+              "id": "salendro_pola_melodi_1",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-2-3",
+              "pilihan": [
+                {
+                  "label": "1-2-3",
+                  "nilai": "1-2-3"
+                },
+                {
+                  "label": "2-1-3",
+                  "nilai": "2-1-3"
+                },
+                {
+                  "label": "1-3-2",
+                  "nilai": "1-3-2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_2",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-3-4",
+              "pilihan": [
+                {
+                  "label": "2-3-4",
+                  "nilai": "2-3-4"
+                },
+                {
+                  "label": "3-2-4",
+                  "nilai": "3-2-4"
+                },
+                {
+                  "label": "2-4-3",
+                  "nilai": "2-4-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_3",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-4-5",
+              "pilihan": [
+                {
+                  "label": "3-4-5",
+                  "nilai": "3-4-5"
+                },
+                {
+                  "label": "4-3-5",
+                  "nilai": "4-3-5"
+                },
+                {
+                  "label": "3-5-4",
+                  "nilai": "3-5-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_4",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-4-3",
+              "pilihan": [
+                {
+                  "label": "5-4-3",
+                  "nilai": "5-4-3"
+                },
+                {
+                  "label": "4-5-3",
+                  "nilai": "4-5-3"
+                },
+                {
+                  "label": "5-3-4",
+                  "nilai": "5-3-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_5",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-3-2",
+              "pilihan": [
+                {
+                  "label": "4-3-2",
+                  "nilai": "4-3-2"
+                },
+                {
+                  "label": "3-4-2",
+                  "nilai": "3-4-2"
+                },
+                {
+                  "label": "4-2-3",
+                  "nilai": "4-2-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_6",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-2-1",
+              "pilihan": [
+                {
+                  "label": "3-2-1",
+                  "nilai": "3-2-1"
+                },
+                {
+                  "label": "2-3-1",
+                  "nilai": "2-3-1"
+                },
+                {
+                  "label": "3-1-2",
+                  "nilai": "3-1-2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_7",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-3-2",
+              "pilihan": [
+                {
+                  "label": "1-3-2",
+                  "nilai": "1-3-2"
+                },
+                {
+                  "label": "3-1-2",
+                  "nilai": "3-1-2"
+                },
+                {
+                  "label": "1-2-3",
+                  "nilai": "1-2-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_8",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-4-3",
+              "pilihan": [
+                {
+                  "label": "2-4-3",
+                  "nilai": "2-4-3"
+                },
+                {
+                  "label": "4-2-3",
+                  "nilai": "4-2-3"
+                },
+                {
+                  "label": "2-3-4",
+                  "nilai": "2-3-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_9",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-5-4",
+              "pilihan": [
+                {
+                  "label": "3-5-4",
+                  "nilai": "3-5-4"
+                },
+                {
+                  "label": "5-3-4",
+                  "nilai": "5-3-4"
+                },
+                {
+                  "label": "3-4-5",
+                  "nilai": "3-4-5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_10",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-3-1",
+              "pilihan": [
+                {
+                  "label": "5-3-1",
+                  "nilai": "5-3-1"
+                },
+                {
+                  "label": "3-5-1",
+                  "nilai": "3-5-1"
+                },
+                {
+                  "label": "5-1-3",
+                  "nilai": "5-1-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_11",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-4-2",
+              "pilihan": [
+                {
+                  "label": "1-4-2",
+                  "nilai": "1-4-2"
+                },
+                {
+                  "label": "4-1-2",
+                  "nilai": "4-1-2"
+                },
+                {
+                  "label": "1-2-4",
+                  "nilai": "1-2-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_12",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-5-3",
+              "pilihan": [
+                {
+                  "label": "2-5-3",
+                  "nilai": "2-5-3"
+                },
+                {
+                  "label": "5-2-3",
+                  "nilai": "5-2-3"
+                },
+                {
+                  "label": "2-3-5",
+                  "nilai": "2-3-5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_13",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-1-5",
+              "pilihan": [
+                {
+                  "label": "4-1-5",
+                  "nilai": "4-1-5"
+                },
+                {
+                  "label": "1-4-5",
+                  "nilai": "1-4-5"
+                },
+                {
+                  "label": "4-5-1",
+                  "nilai": "4-5-1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_14",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-2-4",
+              "pilihan": [
+                {
+                  "label": "5-2-4",
+                  "nilai": "5-2-4"
+                },
+                {
+                  "label": "2-5-4",
+                  "nilai": "2-5-4"
+                },
+                {
+                  "label": "5-4-2",
+                  "nilai": "5-4-2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_15",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-1-4",
+              "pilihan": [
+                {
+                  "label": "3-1-4",
+                  "nilai": "3-1-4"
+                },
+                {
+                  "label": "1-3-4",
+                  "nilai": "1-3-4"
+                },
+                {
+                  "label": "3-4-1",
+                  "nilai": "3-4-1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_16",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-2-3-5",
+              "pilihan": [
+                {
+                  "label": "1-2-3-5",
+                  "nilai": "1-2-3-5"
+                },
+                {
+                  "label": "2-1-3-5",
+                  "nilai": "2-1-3-5"
+                },
+                {
+                  "label": "1-2-5-3",
+                  "nilai": "1-2-5-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_17",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-4-3-1",
+              "pilihan": [
+                {
+                  "label": "5-4-3-1",
+                  "nilai": "5-4-3-1"
+                },
+                {
+                  "label": "4-5-3-1",
+                  "nilai": "4-5-3-1"
+                },
+                {
+                  "label": "5-4-1-3",
+                  "nilai": "5-4-1-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_18",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-3-5-4",
+              "pilihan": [
+                {
+                  "label": "2-3-5-4",
+                  "nilai": "2-3-5-4"
+                },
+                {
+                  "label": "3-2-5-4",
+                  "nilai": "3-2-5-4"
+                },
+                {
+                  "label": "2-3-4-5",
+                  "nilai": "2-3-4-5"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_19",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-2-1-3",
+              "pilihan": [
+                {
+                  "label": "4-2-1-3",
+                  "nilai": "4-2-1-3"
+                },
+                {
+                  "label": "2-4-1-3",
+                  "nilai": "2-4-1-3"
+                },
+                {
+                  "label": "4-2-3-1",
+                  "nilai": "4-2-3-1"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_20",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-4-2-5",
+              "pilihan": [
+                {
+                  "label": "3-4-2-5",
+                  "nilai": "3-4-2-5"
+                },
+                {
+                  "label": "4-3-2-5",
+                  "nilai": "4-3-2-5"
+                },
+                {
+                  "label": "3-4-5-2",
+                  "nilai": "3-4-5-2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_21",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-1-2-4",
+              "pilihan": [
+                {
+                  "label": "5-1-2-4",
+                  "nilai": "5-1-2-4"
+                },
+                {
+                  "label": "1-5-2-4",
+                  "nilai": "1-5-2-4"
+                },
+                {
+                  "label": "5-1-4-2",
+                  "nilai": "5-1-4-2"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_22",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-5-4-2",
+              "pilihan": [
+                {
+                  "label": "1-5-4-2",
+                  "nilai": "1-5-4-2"
+                },
+                {
+                  "label": "5-1-4-2",
+                  "nilai": "5-1-4-2"
+                },
+                {
+                  "label": "1-5-2-4",
+                  "nilai": "1-5-2-4"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_23",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-1-3-4",
+              "pilihan": [
+                {
+                  "label": "2-1-3-4",
+                  "nilai": "2-1-3-4"
+                },
+                {
+                  "label": "1-2-3-4",
+                  "nilai": "1-2-3-4"
+                },
+                {
+                  "label": "2-1-4-3",
+                  "nilai": "2-1-4-3"
+                }
+              ]
+            },
+            {
+              "id": "salendro_pola_melodi_24",
+              "prompt": "Dengarkan pola nada, lalu pilih urutan yang sama.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-5-3-2",
+              "pilihan": [
+                {
+                  "label": "4-5-3-2",
+                  "nilai": "4-5-3-2"
+                },
+                {
+                  "label": "5-4-3-2",
+                  "nilai": "5-4-3-2"
+                },
+                {
+                  "label": "4-5-2-3",
+                  "nilai": "4-5-2-3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bab_salendro_notasi",
+      "judul": "Notasi Angka Salendro",
+      "tujuan": "Membaca angka, titik oktaf, dan nama nada daminatila.",
+      "prasyaratBabId": [],
+      "kriteria": {
+        "minimalSesi": 1,
+        "minimalSkor": 60
+      },
+      "latihan": [
+        {
+          "id": "latihan_salendro_baca",
+          "judul": "Baca Notasi Salendro",
+          "jenis": "baca_notasi",
+          "konfigLoop": {
+            "acuanAktif": false,
+            "jenisAcuan": "tona_patokan",
+            "arahTangga": "menurun",
+            "modePutarAcuan": "atas_permintaan",
+            "bolehLewatiAcuan": true,
+            "batasPemutaranUlang": 4,
+            "modeInput": "pilih_opsi",
+            "bolehPercobaanUlang": true,
+            "jedaAcuanStimulusMs": 450,
+            "skoring": {
+              "skorPenuh": 100,
+              "skorUlang": 60
+            },
+            "tonaPatokan": {
+              "angka": 1,
+              "oktafRelatif": 0
+            }
+          },
+          "soal": [
+            {
+              "id": "salendro_baca_1",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "da-mi-na",
+              "pilihan": [
+                {
+                  "label": "da-mi-na",
+                  "nilai": "da-mi-na"
+                },
+                {
+                  "label": "mi-da-na",
+                  "nilai": "mi-da-na"
+                },
+                {
+                  "label": "da-na-mi",
+                  "nilai": "da-na-mi"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_2",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "mi-na-ti",
+              "pilihan": [
+                {
+                  "label": "mi-na-ti",
+                  "nilai": "mi-na-ti"
+                },
+                {
+                  "label": "na-mi-ti",
+                  "nilai": "na-mi-ti"
+                },
+                {
+                  "label": "mi-ti-na",
+                  "nilai": "mi-ti-na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_3",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "na-ti-la",
+              "pilihan": [
+                {
+                  "label": "na-ti-la",
+                  "nilai": "na-ti-la"
+                },
+                {
+                  "label": "ti-na-la",
+                  "nilai": "ti-na-la"
+                },
+                {
+                  "label": "na-la-ti",
+                  "nilai": "na-la-ti"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_4",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "la-ti-na",
+              "pilihan": [
+                {
+                  "label": "la-ti-na",
+                  "nilai": "la-ti-na"
+                },
+                {
+                  "label": "ti-la-na",
+                  "nilai": "ti-la-na"
+                },
+                {
+                  "label": "la-na-ti",
+                  "nilai": "la-na-ti"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_5",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "ti-na-mi",
+              "pilihan": [
+                {
+                  "label": "ti-na-mi",
+                  "nilai": "ti-na-mi"
+                },
+                {
+                  "label": "na-ti-mi",
+                  "nilai": "na-ti-mi"
+                },
+                {
+                  "label": "ti-mi-na",
+                  "nilai": "ti-mi-na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_6",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 1
+                  }
+                ]
+              },
+              "kunciJawaban": "na-mi-da",
+              "pilihan": [
+                {
+                  "label": "na-mi-da",
+                  "nilai": "na-mi-da"
+                },
+                {
+                  "label": "mi-na-da",
+                  "nilai": "mi-na-da"
+                },
+                {
+                  "label": "na-da-mi",
+                  "nilai": "na-da-mi"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_7",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": -1
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "da-na-mi",
+              "pilihan": [
+                {
+                  "label": "da-na-mi",
+                  "nilai": "da-na-mi"
+                },
+                {
+                  "label": "na-da-mi",
+                  "nilai": "na-da-mi"
+                },
+                {
+                  "label": "da-mi-na",
+                  "nilai": "da-mi-na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_8",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "mi-ti-na",
+              "pilihan": [
+                {
+                  "label": "mi-ti-na",
+                  "nilai": "mi-ti-na"
+                },
+                {
+                  "label": "ti-mi-na",
+                  "nilai": "ti-mi-na"
+                },
+                {
+                  "label": "mi-na-ti",
+                  "nilai": "mi-na-ti"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_9",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "na-la-ti",
+              "pilihan": [
+                {
+                  "label": "na-la-ti",
+                  "nilai": "na-la-ti"
+                },
+                {
+                  "label": "la-na-ti",
+                  "nilai": "la-na-ti"
+                },
+                {
+                  "label": "na-ti-la",
+                  "nilai": "na-ti-la"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_10",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "la-na-da",
+              "pilihan": [
+                {
+                  "label": "la-na-da",
+                  "nilai": "la-na-da"
+                },
+                {
+                  "label": "na-la-da",
+                  "nilai": "na-la-da"
+                },
+                {
+                  "label": "la-da-na",
+                  "nilai": "la-da-na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_11",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "da-ti-mi",
+              "pilihan": [
+                {
+                  "label": "da-ti-mi",
+                  "nilai": "da-ti-mi"
+                },
+                {
+                  "label": "ti-da-mi",
+                  "nilai": "ti-da-mi"
+                },
+                {
+                  "label": "da-mi-ti",
+                  "nilai": "da-mi-ti"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_12",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 1
+                  }
+                ]
+              },
+              "kunciJawaban": "mi-la-na",
+              "pilihan": [
+                {
+                  "label": "mi-la-na",
+                  "nilai": "mi-la-na"
+                },
+                {
+                  "label": "la-mi-na",
+                  "nilai": "la-mi-na"
+                },
+                {
+                  "label": "mi-na-la",
+                  "nilai": "mi-na-la"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_13",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "ti-da-la",
+              "pilihan": [
+                {
+                  "label": "ti-da-la",
+                  "nilai": "ti-da-la"
+                },
+                {
+                  "label": "da-ti-la",
+                  "nilai": "da-ti-la"
+                },
+                {
+                  "label": "ti-la-da",
+                  "nilai": "ti-la-da"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_14",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": -1
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "la-mi-ti",
+              "pilihan": [
+                {
+                  "label": "la-mi-ti",
+                  "nilai": "la-mi-ti"
+                },
+                {
+                  "label": "mi-la-ti",
+                  "nilai": "mi-la-ti"
+                },
+                {
+                  "label": "la-ti-mi",
+                  "nilai": "la-ti-mi"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_15",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "na-da-ti",
+              "pilihan": [
+                {
+                  "label": "na-da-ti",
+                  "nilai": "na-da-ti"
+                },
+                {
+                  "label": "da-na-ti",
+                  "nilai": "da-na-ti"
+                },
+                {
+                  "label": "na-ti-da",
+                  "nilai": "na-ti-da"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_16",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "da-mi-na-la",
+              "pilihan": [
+                {
+                  "label": "da-mi-na-la",
+                  "nilai": "da-mi-na-la"
+                },
+                {
+                  "label": "mi-da-na-la",
+                  "nilai": "mi-da-na-la"
+                },
+                {
+                  "label": "da-mi-la-na",
+                  "nilai": "da-mi-la-na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_17",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "la-ti-na-da",
+              "pilihan": [
+                {
+                  "label": "la-ti-na-da",
+                  "nilai": "la-ti-na-da"
+                },
+                {
+                  "label": "ti-la-na-da",
+                  "nilai": "ti-la-na-da"
+                },
+                {
+                  "label": "la-ti-da-na",
+                  "nilai": "la-ti-da-na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_18",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 1
+                  }
+                ]
+              },
+              "kunciJawaban": "mi-na-la-ti",
+              "pilihan": [
+                {
+                  "label": "mi-na-la-ti",
+                  "nilai": "mi-na-la-ti"
+                },
+                {
+                  "label": "na-mi-la-ti",
+                  "nilai": "na-mi-la-ti"
+                },
+                {
+                  "label": "mi-na-ti-la",
+                  "nilai": "mi-na-ti-la"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_19",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "ti-mi-da-na",
+              "pilihan": [
+                {
+                  "label": "ti-mi-da-na",
+                  "nilai": "ti-mi-da-na"
+                },
+                {
+                  "label": "mi-ti-da-na",
+                  "nilai": "mi-ti-da-na"
+                },
+                {
+                  "label": "ti-mi-na-da",
+                  "nilai": "ti-mi-na-da"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_20",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "na-ti-mi-la",
+              "pilihan": [
+                {
+                  "label": "na-ti-mi-la",
+                  "nilai": "na-ti-mi-la"
+                },
+                {
+                  "label": "ti-na-mi-la",
+                  "nilai": "ti-na-mi-la"
+                },
+                {
+                  "label": "na-ti-la-mi",
+                  "nilai": "na-ti-la-mi"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_21",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": -1
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "la-da-mi-ti",
+              "pilihan": [
+                {
+                  "label": "la-da-mi-ti",
+                  "nilai": "la-da-mi-ti"
+                },
+                {
+                  "label": "da-la-mi-ti",
+                  "nilai": "da-la-mi-ti"
+                },
+                {
+                  "label": "la-da-ti-mi",
+                  "nilai": "la-da-ti-mi"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_22",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "da-la-ti-mi",
+              "pilihan": [
+                {
+                  "label": "da-la-ti-mi",
+                  "nilai": "da-la-ti-mi"
+                },
+                {
+                  "label": "la-da-ti-mi",
+                  "nilai": "la-da-ti-mi"
+                },
+                {
+                  "label": "da-la-mi-ti",
+                  "nilai": "da-la-mi-ti"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_23",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "mi-da-na-ti",
+              "pilihan": [
+                {
+                  "label": "mi-da-na-ti",
+                  "nilai": "mi-da-na-ti"
+                },
+                {
+                  "label": "da-mi-na-ti",
+                  "nilai": "da-mi-na-ti"
+                },
+                {
+                  "label": "mi-da-ti-na",
+                  "nilai": "mi-da-ti-na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_baca_24",
+              "prompt": "Baca notasi angka yang tampil, lalu pilih bacaan daminatilanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 1
+                  }
+                ]
+              },
+              "kunciJawaban": "ti-la-na-mi",
+              "pilihan": [
+                {
+                  "label": "ti-la-na-mi",
+                  "nilai": "ti-la-na-mi"
+                },
+                {
+                  "label": "la-ti-na-mi",
+                  "nilai": "la-ti-na-mi"
+                },
+                {
+                  "label": "ti-la-mi-na",
+                  "nilai": "ti-la-mi-na"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "latihan_salendro_nama_nada",
+          "judul": "Nama Nada Salendro",
+          "jenis": "solfeg",
+          "konfigLoop": {
+            "acuanAktif": false,
+            "jenisAcuan": "pola_contoh",
+            "arahTangga": "menurun",
+            "modePutarAcuan": "atas_permintaan",
+            "bolehLewatiAcuan": true,
+            "batasPemutaranUlang": 4,
+            "modeInput": "pilih_opsi",
+            "bolehPercobaanUlang": true,
+            "jedaAcuanStimulusMs": 450,
+            "skoring": {
+              "skorPenuh": 100,
+              "skorUlang": 60
+            },
+            "polaContoh": [
+              {
+                "angka": 1,
+                "oktafRelatif": 0
+              },
+              {
+                "angka": 2,
+                "oktafRelatif": 0
+              },
+              {
+                "angka": 3,
+                "oktafRelatif": 0
+              }
+            ]
+          },
+          "soal": [
+            {
+              "id": "salendro_nama_tengah_1",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 1,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "da",
+              "pilihan": [
+                {
+                  "label": "da",
+                  "nilai": "da"
+                },
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                },
+                {
+                  "label": "na",
+                  "nilai": "na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tengah_2",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 2,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "mi",
+              "pilihan": [
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                },
+                {
+                  "label": "na",
+                  "nilai": "na"
+                },
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tengah_3",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 3,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "na",
+              "pilihan": [
+                {
+                  "label": "na",
+                  "nilai": "na"
+                },
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                },
+                {
+                  "label": "la",
+                  "nilai": "la"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tengah_4",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 4,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "ti",
+              "pilihan": [
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                },
+                {
+                  "label": "la",
+                  "nilai": "la"
+                },
+                {
+                  "label": "da",
+                  "nilai": "da"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tengah_5",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 5,
+                  "oktafRelatif": 0
+                }
+              },
+              "kunciJawaban": "la",
+              "pilihan": [
+                {
+                  "label": "la",
+                  "nilai": "la"
+                },
+                {
+                  "label": "da",
+                  "nilai": "da"
+                },
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_rendah_1",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 1,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "da",
+              "pilihan": [
+                {
+                  "label": "da",
+                  "nilai": "da"
+                },
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                },
+                {
+                  "label": "na",
+                  "nilai": "na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_rendah_2",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 2,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "mi",
+              "pilihan": [
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                },
+                {
+                  "label": "na",
+                  "nilai": "na"
+                },
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_rendah_3",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 3,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "na",
+              "pilihan": [
+                {
+                  "label": "na",
+                  "nilai": "na"
+                },
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                },
+                {
+                  "label": "la",
+                  "nilai": "la"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_rendah_4",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 4,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "ti",
+              "pilihan": [
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                },
+                {
+                  "label": "la",
+                  "nilai": "la"
+                },
+                {
+                  "label": "da",
+                  "nilai": "da"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_rendah_5",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 5,
+                  "oktafRelatif": -1
+                }
+              },
+              "kunciJawaban": "la",
+              "pilihan": [
+                {
+                  "label": "la",
+                  "nilai": "la"
+                },
+                {
+                  "label": "da",
+                  "nilai": "da"
+                },
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tinggi_1",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 1,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "da",
+              "pilihan": [
+                {
+                  "label": "da",
+                  "nilai": "da"
+                },
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                },
+                {
+                  "label": "na",
+                  "nilai": "na"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tinggi_2",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 2,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "mi",
+              "pilihan": [
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                },
+                {
+                  "label": "na",
+                  "nilai": "na"
+                },
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tinggi_3",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 3,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "na",
+              "pilihan": [
+                {
+                  "label": "na",
+                  "nilai": "na"
+                },
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                },
+                {
+                  "label": "la",
+                  "nilai": "la"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tinggi_4",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 4,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "ti",
+              "pilihan": [
+                {
+                  "label": "ti",
+                  "nilai": "ti"
+                },
+                {
+                  "label": "la",
+                  "nilai": "la"
+                },
+                {
+                  "label": "da",
+                  "nilai": "da"
+                }
+              ]
+            },
+            {
+              "id": "salendro_nama_tinggi_5",
+              "prompt": "Angka yang tampil dibaca sebagai apa?",
+              "stimulus": {
+                "jenis": "tona",
+                "tona": {
+                  "angka": 5,
+                  "oktafRelatif": 1
+                }
+              },
+              "kunciJawaban": "la",
+              "pilihan": [
+                {
+                  "label": "la",
+                  "nilai": "la"
+                },
+                {
+                  "label": "da",
+                  "nilai": "da"
+                },
+                {
+                  "label": "mi",
+                  "nilai": "mi"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bab_salendro_memori_dikte",
+      "judul": "Dikte Salendro",
+      "tujuan": "Mengingat pola lalu menuliskannya sebagai angka.",
+      "prasyaratBabId": [],
+      "kriteria": {
+        "minimalSesi": 1,
+        "minimalSkor": 60
+      },
+      "latihan": [
+        {
+          "id": "latihan_salendro_dikte",
+          "judul": "Dikte Salendro",
+          "jenis": "dikte",
+          "konfigLoop": {
+            "acuanAktif": true,
+            "jenisAcuan": "tangga_nada",
+            "arahTangga": "menurun",
+            "modePutarAcuan": "otomatis",
+            "bolehLewatiAcuan": true,
+            "batasPemutaranUlang": 4,
+            "modeInput": "tulis_notasi",
+            "bolehPercobaanUlang": true,
+            "jedaAcuanStimulusMs": 450,
+            "skoring": {
+              "skorPenuh": 100,
+              "skorUlang": 60
+            }
+          },
+          "soal": [
+            {
+              "id": "salendro_dikte_1",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-2-3",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_2",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-3-4",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_3",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-4-5",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_4",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-4-3",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_5",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-3-2",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_6",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-2-1",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_7",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-3-2",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_8",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-4-3",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_9",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-5-4",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_10",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-3-1",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_11",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-4-2",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_12",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-5-3",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_13",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-1-5",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_14",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-2-4",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_15",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-1-4",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_16",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-2-3-5",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_17",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-4-3-1",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_18",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-3-5-4",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_19",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-2-1-3",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_20",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "3-4-2-5",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_21",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "5-1-2-4",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_22",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "1-5-4-2",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_23",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 1,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "2-1-3-4",
+              "pilihan": []
+            },
+            {
+              "id": "salendro_dikte_24",
+              "prompt": "Dengarkan urutan nada, lalu tuliskan notasi angkanya.",
+              "stimulus": {
+                "jenis": "urutan_tona",
+                "urutanTona": [
+                  {
+                    "angka": 4,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 5,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 3,
+                    "oktafRelatif": 0
+                  },
+                  {
+                    "angka": 2,
+                    "oktafRelatif": 0
+                  }
+                ]
+              },
+              "kunciJawaban": "4-5-3-2",
+              "pilihan": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
